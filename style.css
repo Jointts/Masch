@@ -1,0 +1,277 @@
+.navbar-brand {
+    height: 65px;
+    padding: 7px 0 0;
+    transition: all .5s ease-in;
+}
+
+.navbar-brand>img {
+    height: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 13px;
+    width: auto;
+}
+
+nav .navbar-nav{
+    margin-left: 15px;
+    margin-top: 25px;
+    transition: all .5s ease-in;
+}
+
+nav{
+    height: 100px;
+    transition: all .5s ease-in;
+}
+
+.navbar-nav li{
+    padding-left: 10px;
+}
+
+.navbar-nav li a{
+    color: black !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.navbar-nav li.active a, .navbar-nav li{
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.navbar{
+    border: 0;
+    background-color: white;
+}
+
+.large-picture .background-image{
+    width: 100%;
+    height: 600px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    position: absolute;
+}
+
+.carousel-content{
+    margin-top: 75px;
+}
+
+.carousel-content .text{
+    margin-top: 75px;
+    font-size: 30px;
+    padding: 50px 50px 50px 0px;
+    color: white;
+    letter-spacing: 2px;
+    display: inline-block;
+    float: left;
+}
+
+.carousel-container{
+    padding-left: 0;
+}
+
+.activities-container{
+    margin-top: 50px;
+}
+
+.activities-title{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.activities-content{
+    margin-top: 130px;
+}
+
+.basic-button{
+    margin-top: 50px;
+    display: block;
+    height: 40px;
+    width: 50%;
+}
+
+.basic-button .btn-primary{
+    padding-top: 7px;
+    letter-spacing: 2px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.activity-1{
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.activity-2{
+    border-left: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.activity-3{
+    border-top: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.activity-4{
+    border-top: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.activity img{
+    max-width: 125px;
+    opacity: .2;
+}
+
+.basic-button-no-arrow{
+    margin-top: 30px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: 2px solid #2494bd;
+    background-color: transparent;
+    color: #2494bd;
+}
+
+.basic-button .button-part-1{
+    margin-top: -10px;
+    width: 75%;
+    height: 100%;
+}
+
+.basic-button .button-part-2{
+    width: 20%;
+    margin-left: -8px;
+    display: inline-block;
+    height: 100%;
+    background-color: white;
+    color: #1b495a;
+    padding-left: 15px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.activity h2{
+    margin-top: 0px;
+    color: #2494bd;
+}
+
+.activity p{
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.about-us-picture{
+    margin-top: 150px;
+    width: 100%;
+    height: 400px;
+    background: url('img/about-code-construction-builders.jpg') center;
+    background-size: cover;
+}
+
+.about-us-container h2{
+    margin-top: 125px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #2494bd;
+}
+
+.about-us-container p{
+    margin-top: 75px;
+    color: gray;
+    font-size: 22px;
+}
+
+footer{
+    margin-top: 200px;
+    width: 100%;
+    background-color: #1b495a;
+    color: white;
+}
+
+p.company-name{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.footer-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-container .company-telephone, .footer-container .company-mail{
+    font-size: 20px;
+}
+
+.footer-container .fa{
+    margin-right: 10px;
+}
+
+.footer-container .sitemap{
+    font-size: 30px;
+}
+
+.footer-second-section ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer-second-section ul{
+    padding-left: 0;
+}
+
+.footer-second-section li a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.about-us-button{
+    width: 200px;
+    color: #2e6da4;
+    border: 1px solid #2e6da4;
+}
+
+nav.shrink{
+    height: 75px;
+    border-bottom: 1px solid gainsboro;
+    transition: all .5s ease-in;
+}
+
+nav.shrink .navbar-brand{
+    height: 50px;
+    padding-top: 5px;
+    transition: all .5s ease-in;
+}
+
+nav.shrink .navbar-nav{
+    margin-top: 13px;
+    transition: all .5s ease-in;
+}
+
+nav li a:hover, nav li a.active{
+    color: #2e6da4 !important;
+}
+

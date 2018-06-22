@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+
+  wordpress:
+    image: wordpress
+    environment:
+      WORDPRESS_DB_PASSWORD: root
+    ports:
+      - "80:80"
+    volumes:
+        - /home/jointts/Docker/volumes/wordpress:/var/www/html
+
+  mysql:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+        - /home/jointts/Docker/volumes/mariadb:/var/lib/mysql
